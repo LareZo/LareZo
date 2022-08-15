@@ -164,7 +164,7 @@ wait(0.50)
 loadstring(game:HttpGet("https://pastebin.com/raw/SeZTURG5"))()
 end)
 
---// L4 Buy Itemz \\
+--// L4 Buy Items \\
 
 L4:Label("Guns")
 
