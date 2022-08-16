@@ -19,6 +19,17 @@ local L6 = win:Tab("Toggles")
 local L7 = win:Tab("Animation")
 local L8 = win:Tab("Credits")
 --// L1 Player \\
+L1:Button("No SlowDown, function()
+local mt = getrawmetatable(game)
+local backup
+backup = hookfunction(mt.__newindex, newcclosure(function(self, key, value)
+if key == "WalkSpeed" and value < 16 then
+value = 16
+end
+return backup(self, key, value)
+end))
+end)
+
 L1:Button("Normally Size", function()
 game.StarterGui:SetCore("SendNotification", {
     Title = "Reset";
