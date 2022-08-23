@@ -11,7 +11,7 @@ local T6 = win:Tab("Animations")
 local T7 = win:Tab("Toggles")
 local T8 = win:Tab("Credits")
 --// LocalPlayer \\
-T1:Button("CFrame Speed", function()
+T1:Button("Cframe speed (L)", function()
     	repeat
 		wait()
 	until game:IsLoaded()
