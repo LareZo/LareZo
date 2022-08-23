@@ -439,6 +439,10 @@ local args = {
 game:GetService("ReplicatedStorage"):FindFirstChild(".gg/untitledhood"):FireServer(unpack(args))
 end)
 
+T5:Textbox("MaxZoom",true, function(t)
+player.CameraMaxZoomDistance = t
+end)
+
 --// Animations \\
 T6:Button("Astronaut", function()
 local Animate = game.Players.LocalPlayer.Character.Animate
