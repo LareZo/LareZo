@@ -917,6 +917,21 @@ fireclickdetector(game.Workspace.Ignored.Shop['[HeavyWeights] - $250'].ClickDete
 end)
 
 --// L5 Misc \\
+L5:Button("No display", function()
+getgenv().l = true
+while getgenv().l do
+wait(0.90)
+   pcall(function()
+        for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+            if v.Character then
+                if v.Character:FindFirstChild("Humanoid") then
+                    v.Character:FindFirstChild("Humanoid").DisplayName = v.Name 
+                end
+            end
+        end
+    end
+end)
+end)
 
 L5:Button("headless", function()
 game.Players.LocalPlayer.Character.Head.Transparency = 1
