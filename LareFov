@@ -101,12 +101,9 @@ local chatFrame = LocalPlayer.PlayerGui.Chat.Frame;
 chatFrame.ChatChannelParentFrame.Visible = true;
 chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position + UDim2.new(UDim.new(), chatFrame.ChatChannelParentFrame.Size.Y);
 wait(0.20)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Open/Close";
-    Text = "Keybind is (P)";
-    Duration = 5;
-})
-
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
+l:Notify("Close/Open","P",10)
+wait(0.1)
 local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/inceldom/kinx/main/ui'))()
 
 local win = UILib:Window("LareFov",Color3.fromRGB(255, 255, 127), Enum.KeyCode.P)
