@@ -382,7 +382,7 @@ end)
 T2:Button("BackRooms", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(48270.28515625, 10815.830078125, -47573.82421875)
 end)
---// Locks Antis \\
+--// Locks Antiz \\
 T3:Button("DotLock(Q)", function()
 local ScreenGui = Instance.new("ScreenGui")
 local TextLabel = Instance.new("TextLabel")
