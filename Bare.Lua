@@ -1,6 +1,6 @@
 local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/inceldom/kinx/main/ui'))()
 
-local win = UILib:Window("Bare.Lua",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl)
+local win = UILib:Window("Bare.Lua",Color3.fromRGB(44, 110, 224), Enum.KeyCode.RightControl)
 
 local T1 = win:Tab("LocalPlayer")
 local T2 = win:Tab("Locations")
