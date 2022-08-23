@@ -407,7 +407,16 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(278.2059
 wait(0.5)
 fireclickdetector(game.Workspace.Ignored.Shop['[HeavyWeights] - $250'].ClickDetector)
 end)
---// Target \\
+--// TextScripts \\
+
+T5:Textbox("Cash Amount",true, function(t)
+local args = {
+    [1] = "DropMoney",
+    [2] = t
+    }
+            
+game:GetService("ReplicatedStorage"):FindFirstChild(".gg/untitledhood"):FireServer(unpack(args))
+end)
 
 --// Animations \\
 T6:Button("Astronaut", function()
