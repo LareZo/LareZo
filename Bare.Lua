@@ -11,6 +11,27 @@ local T6 = win:Tab("Animations")
 local T7 = win:Tab("Toggles")
 local T8 = win:Tab("Credits")
 --// LocalPlayer \\
+T1:Button("Headless (Not Fe)
+game.Players.LocalPlayer.Character.Head.Transparency = 1
+game.Players.LocalPlayer.Character.Head.Transparency = 1
+for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+if (v:IsA("Decal")) then
+v.Transparency = 1
+end
+end
+end)
+
+T1:Button("Korblox (Not Fe)
+local ply = game.Players.LocalPlayer
+local chr = ply.Character
+chr.RightLowerLeg.MeshId = "902942093"
+chr.RightLowerLeg.Transparency = "1"
+chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+chr.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+chr.RightFoot.MeshId = "902942089"
+chr.RightFoot.Transparency = "1"
+end)
+
 T1:Button("Normall Size", function()
 game.Players.LocalPlayer.Character.Humanoid.BodyDepthScale:Destroy()
 game.Players.LocalPlayer.Character.Humanoid.BodyWidthScale:Destroy()
