@@ -604,7 +604,29 @@ game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
 
 --// Toggles \\
+T7:Toggle("Auto Stomp",false, function(t)
+	if t then
+getgenv().l = true
+while getgenv().l do
+wait(0.0001)
+local args = {
+    [1] = "Stomp"
+}
 
+game:GetService("ReplicatedStorage"):FindFirstChild(".gg/untitledhood"):FireServer(unpack(args))
+end
+else
+getgenv().l = false
+while getgenv().l do
+wait(0.0001)
+local args = {
+    [1] = "Stomp"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild(".gg/untitledhood"):FireServer(unpack(args))
+end
+end
+end)
 --// Credits \\
 T8:Label("Ui Lib : Kinx Hub")
 
