@@ -443,6 +443,18 @@ T5:Textbox("MaxZoom",true, function(t)
 player.CameraMaxZoomDistance = t
 end)
 
+T5:Textbox("Goto (Full Name)",true, function(t)
+local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local p2 = t
+local pos = p1.CFrame
+
+p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
+
+wait(math.huge)
+
+p1.CFrame = pos
+end)
+
 --// Animations \\
 T6:Button("Astronaut", function()
 local Animate = game.Players.LocalPlayer.Character.Animate
