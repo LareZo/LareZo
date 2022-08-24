@@ -198,7 +198,6 @@ T1:Button("Cframe speed (L)", function()
 			end
 		end
 	end)
-end)
 
 T1:Button("Headless (Not Fe)
 game.Players.LocalPlayer.Character.Head.Transparency = 1
