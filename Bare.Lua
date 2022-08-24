@@ -3,7 +3,7 @@ local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/inceldo
 local win = UILib:Window("Bare.Lua",Color3.fromRGB(44, 110, 224), Enum.KeyCode.RightControl)
 
 local T1 = win:Tab("LocalPlayer")
-local T2  = win:Tab("Locations")
+local T2 = win:Tab("Locations")
 local T3 = win:Tab("Locks & Antis")
 local L4 = win:Tab(" ")
 local T5 = win:Tab(" ")
