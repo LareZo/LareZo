@@ -1,0 +1,29 @@
+local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/inceldom/kinx/main/ui'))()
+
+local win = UILib:Window("NLWare (V)",Color3.fromRGB(255, 255, 127), Enum.KeyCode.V)
+
+--// Tabs \\
+local M1 = win:Tab("Character")
+local M2 = win:Tab("Movement")
+local M3 = win:Tab("Locations")
+local M4 = win:Tab("Animations")
+local M5 = win:Tab("SellCash")
+local M6  = win:Tab("Anti Aims")
+local M7  = win:Tab("Toggles")
+local M8  = win:Tab("Credits")
+
+--// Chracter \\
+
+--// Movement \\
+
+--// Locations \\
+
+--// Animations \\
+
+--// SellCash \\
+
+--// Anti Aims \\
+
+--// Toggles \\
+
+-// Credits \\
