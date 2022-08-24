@@ -3,11 +3,11 @@ local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/inceldo
 local win = UILib:Window("NLWare (V)",Color3.fromRGB(255, 255, 127), Enum.KeyCode.V)
 
 --// Tabs \\
-local M1 = win:Tab("Client Sided")
+local M1 = win:Tab("Character")
 local M2 = win:Tab("Movement")
 local M3 = win:Tab("Locations")
 local M4 = win:Tab("Animations")
-local M5 = win:Tab("SellCash")
+local M5 = win:Tab("Client Sided")
 local M6  = win:Tab("Anti Aims")
 local M7  = win:Tab("Toggles")
 local M8  = win:Tab("Credits")
@@ -38,7 +38,14 @@ M1:Button("HeadLess + Korblox", function()
     
 end)
 
-M1:Button("Radar Map", function()
+--// Movement M2\\
+
+--// Locations M3\\
+
+--// Animations M4\\
+
+--// Client Sided M5\\
+M5:Button("Radar Map", function()
 _G.RadarSettings = {
     -- Radar settings
     RADAR_LINES = true; -- Displays distance rings
@@ -72,16 +79,9 @@ _G.RadarSettings = {
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/stuff/main/PlayerRadar/source.lua'))()
 end)
---// Movement \\
 
---// Locations \\
+--// Anti Aims M6\\
 
---// Animations \\
+--// Toggles M7\\
 
---// SellCash \\
-
---// Anti Aims \\
-
---// Toggles \\
-
--// Credits \\
+-// Credits M8\\
