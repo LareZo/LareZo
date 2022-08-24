@@ -3,10 +3,10 @@ local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/inceldo
 local win = UILib:Window("Bare.Lua",Color3.fromRGB(44, 110, 224), Enum.KeyCode.RightControl)
 
 local T1 = win:Tab("LocalPlayer")
-local T2 = win:Tab("Locations")
+local T2  = win:Tab("Locations")
 local T3 = win:Tab("Locks & Antis")
-local L4 = win:Tab("Auto Buys")
-local T5 = win:Tab("TextScripts")
+local L4 = win:Tab(" ")
+local T5 = win:Tab(" ")
 local T6 = win:Tab("Animations")
 local T7 = win:Tab("Toggles")
 local T8 = win:Tab("Credits")
@@ -583,31 +583,6 @@ end)
 --// Auto Buys \\
 
 --// TextScripts \\
-
-T5:Textbox("Cash Amount",true, function(t)
-local args = {
-    [1] = "DropMoney",
-    [2] = t
-    }
-            
-game:GetService("ReplicatedStorage"):FindFirstChild(".gg/untitledhood"):FireServer(unpack(args))
-end)
-
-T5:Textbox("MaxZoom",true, function(t)
-player.CameraMaxZoomDistance = t
-end)
-
-T5:Textbox("Goto (Full Name)",true, function(t)
-local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
-local p2 = t
-local pos = p1.CFrame
-
-p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
-
-wait(math.huge)
-
-p1.CFrame = pos
-end)
 
 --// Animations \\
 T6:Button("Astronaut", function()
