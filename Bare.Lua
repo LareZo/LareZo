@@ -11,6 +11,35 @@ local T6 = win:Tab("Animations")
 local T7 = win:Tab("Toggles")
 local T8 = win:Tab("Credits")
 --// LocalPlayer \\
+T1:Button("TrashTalk (J)" function()
+local words = {
+			'Sonned🤣🤣🤣',
+			'Nub Learn how to aiming😐😐',
+			'Monkey🐵🐵🐵',
+			'Omg how mad???',
+			'🤡🤡🤡',
+			'Oh how you missed that shoot??????',
+			'Im King👑👑👑',
+			'How Bad!1!1!1!1!1!!',
+			'You are pro (joke)',
+			'NUUUB YOUR TRASHH!!!1!1!1!',
+			'IM NOT LOCKING your jus bad😂😂😂',
+			'1200-0 Ez Win Bozo',
+			'💀💀💀💀'
+		}
+		
+		local player = game.Players.LocalPlayer
+		local keybind = 'J'
+		
+		local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+		
+		player:GetMouse().KeyDown:connect(function(key)
+			if key == keybind then
+				event:FireServer(words[math.random(#words)], "All")
+			end
+		end)
+end)
+
 T1:Button("Fly (X)", function()
 local plr = game.Players.LocalPlayer
 	local mouse = plr:GetMouse()
