@@ -1,3 +1,5 @@
+hookfunction(game.Players.LocalPlayer.IsInGroup, function() return true end)
+wait(0.20)
 local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/inceldom/kinx/main/ui'))()
 
 local win = UILib:Window("NLWare (N)",Color3.fromRGB(255, 255, 127), Enum.KeyCode.N)
@@ -10,6 +12,7 @@ local NL5 = win:Tab("Anti-Aims")
 local NL6 = win:Tab("Toggles")
 local NL7 = win:Tab("Remote-Scripts")
 local NL8 = win:Tab("Client-Sided")
+local NL9 = win:Tab("Credits")
 
 --// Character NL1 \\
 
@@ -26,3 +29,15 @@ local NL8 = win:Tab("Client-Sided")
 --// Remote Scripts NL7 \\
 
 --// Client Sided NL8 \\
+
+--// Credits NL9 \\
+NL9:Label("Ui : Kinx Hub")
+
+NL9:Label("Lare#7058")
+
+NL9:Label("STAge")
+
+NL9:Label("")
+
+NL9:Label("")
+--//////////\\\\\\\\\\
