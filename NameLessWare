@@ -12,7 +12,7 @@ local NL5 = win:Tab("Anti-Aims")
 local NL6 = win:Tab("Toggles")
 local NL7 = win:Tab("Remote-Scripts")
 local NL8 = win:Tab("Client-Sided")
-local NL9 = win:Tab("Credits")
+local NL9 = win:Tab("Other Stuff")
 
 --// Character NL1 \\
 
@@ -30,14 +30,4 @@ local NL9 = win:Tab("Credits")
 
 --// Client Sided NL8 \\
 
---// Credits NL9 \\
-NL9:Label("Ui : Kinx Hub")
-
-NL9:Label("Lare#7058")
-
-NL9:Label("STAge")
-
-NL9:Label("")
-
-NL9:Label("")
---//////////\\\\\\\\\\
+--// Other Stuff \\
