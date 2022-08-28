@@ -1,6 +1,6 @@
 local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/inceldom/kinx/main/ui'))()
 
-local win = UILib:Window("NLWare (V)",Color3.fromRGB(255, 255, 127), Enum.KeyCode.V)
+local win = UILib:Window("NLWare (N)",Color3.fromRGB(255, 255, 127), Enum.KeyCode.N)
 
 local NL1 = win:Tab("Character")
 local NL2 = win:Tab("Movement")
