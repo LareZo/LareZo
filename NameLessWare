@@ -6,10 +6,10 @@ local NL1 = win:Tab("Character")
 local NL2 = win:Tab("Movement")
 local NL3 = win:Tab("Locations")
 local NL4 = win:Tab("Animations")
-local NL5 = win:Tab("Anti Aims")
+local NL5 = win:Tab("Anti-Aims")
 local NL6 = win:Tab("Toggles")
-local NL7 = win:Tab("Remote Scripts")
-local NL8 = win:Tab("Client Sided")
+local NL7 = win:Tab("Remote-Scripts")
+local NL8 = win:Tab("Client-Sided")
 
 --// Character NL1 \\
 
