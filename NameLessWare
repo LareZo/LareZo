@@ -3,14 +3,14 @@ local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/inceldo
 local win = UILib:Window("NLWare (V)",Color3.fromRGB(255, 255, 127), Enum.KeyCode.V)
 
 --// Tabs \\
-local M1 = win:Tab("Character")
-local M2 = win:Tab("Movement")
-local M3 = win:Tab("Locations")
-local M4 = win:Tab("Animations")
-local M5 = win:Tab("Client Sided")
-local M6  = win:Tab("Anti Aims")
-local M7  = win:Tab("Toggles")
-local M8  = win:Tab("Credits")
+local M1 = win:Tab("CHARACTER")
+local M2 = win:Tab("MOVEMENT")
+local M3 = win:Tab("LOCATIONS")
+local M4 = win:Tab("ANIMATIONS")
+local M5 = win:Tab("SIDE")
+local M6  = win:Tab("ANTIS")
+local M7  = win:Tab("TOGGLES")
+local M8  = win:Tab("CREDITS")
 
 --// Chracter \\
 M1:Button("HeadLess + Korblox", function()
