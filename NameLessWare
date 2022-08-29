@@ -1,3 +1,9 @@
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/LareZo/LareZo/main/NAMELESSWARENOTIFY", true))()
+l:Notify("NameLessWare","Loading...",10)
+wait(9)
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/LareZo/LareZo/main/NAMELESSWARENOTIFY", true))()
+l:Notify("NameLessWare","Loaded!",5)
+wait(5)
 hookfunction(game.Players.LocalPlayer.IsInGroup, function() return true end)
 wait(0.20)
 local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/inceldom/kinx/main/ui'))()
@@ -30,4 +36,4 @@ local NL9 = win:Tab("Other Stuff")
 
 --// Client Sided NL8 \\
 
---// Other Stuff \\
+--// Other Stuff NL9 \\
