@@ -1,0 +1,34 @@
+local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/inceldom/kinx/main/ui'))()
+
+local win = UILib:Window("Venus • Y",Color3.fromRGB(0, 0, 0), Enum.KeyCode.Y)
+
+local V1= win:Tab("Local•Player")
+local V2= win:Tab("Movement")
+local V3 = win:Tab("Locations")
+local V4 = win:Tab("Toggles")
+local V5 = win:Tab("Anti•Aims • Aims")
+local V6 = win:Tab("Animations")
+local V7 = win:Tab("Client•Sided")
+local V8 = win:Tab("Remote•Stuff")
+local V9 = win:Tab("Other•Stuff")
+
+--V1 // Local•Player \\
+
+--V2 // Movement \\
+
+--V3 // Locations \\
+
+--V4 // Toggles \\
+
+--V5 // Anti•Aims • Aims \\
+
+--V6 // Animations \\
+
+--V7 // Client•Sided \\
+
+--V8 // Remote•Stuff \\
+
+--V9 // Other•Stuff \\
+
+
+hookfunction(game.Players.LocalPlayer.IsInGroup, function() return true end)
